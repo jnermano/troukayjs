@@ -1,0 +1,30 @@
+#board{
+    border: none;
+}
+
+.hole {
+    height: 100px;
+    width: 100px;;
+    border: 5px solid gray;
+    text-align: center;
+    margin: 1px;
+    
+  align-items: center;
+  justify-content: center;
+}
+
+.hole:hover{
+    background: #ddd;
+}
+
+.hole.start{
+    background: #aaf;
+}
+
+.hole.active{
+    background: #afa;
+}
+
+.hole.blind{
+    background: #faa;
+}
