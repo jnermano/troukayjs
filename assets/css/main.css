@@ -2,6 +2,12 @@
     border: none;
 }
 
+#board-head{
+    border: 5px solid gray;
+    margin: 1px;
+    padding: 2px;
+}
+
 .hole {
     height: 100px;
     width: 100px;;
@@ -11,6 +17,7 @@
     
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .hole:hover{
@@ -27,4 +34,22 @@
 
 .hole.blind{
     background: #faa;
+}
+
+.player-info{
+    height: 50%;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.player-info.playing{
+    background: #aaf;
+}
+
+.player-info h2,
+.player-info h3,
+.player-info h5 {
+    text-align: center;
 }
